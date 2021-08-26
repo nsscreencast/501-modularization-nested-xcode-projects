@@ -1,0 +1,29 @@
+/* Delete button title */
+"delete" = "delete";
+
+/* Info screen title */
+"info.title" = "Info";
+
+/* Add Meal button title */
+"meal_form.add_meal_button" = "Add meal";
+
+/* Add Meal screen title */
+"meal_form.add_meal_title" = "Add Meal";
+
+/* Edit Meal screen title */
+"meal_form.edit_meal_title" = "Edit Meal";
+
+/* Meal form name textfield placeholder */
+"meal_form.name_placeholder" = "Meal";
+
+/* Update Meal button title */
+"meal_form.update_meal_button" = "Update meal";
+
+/* Add meal button title */
+"plan.add_meal" = "Add meal";
+
+/* Meal plan screen title */
+"plan.title" = "Meal Plan";
+
+/* NOTRANSLATE You have %d meals planned this week */
+"meals_planned_count" = "meals_planned_count";

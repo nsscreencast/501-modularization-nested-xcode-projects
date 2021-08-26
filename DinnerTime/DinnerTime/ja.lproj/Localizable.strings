@@ -1,0 +1,27 @@
+/* Delete button title */
+"delete" = "削除";
+
+/* Info screen title */
+"info.title" = "情報";
+
+/* Add Meal button title */
+"meal_form.add_meal_button" = "食事を追加";
+
+/* Add Meal screen title */
+"meal_form.add_meal_title" = "食事を追加";
+
+/* Edit Meal screen title */
+"meal_form.edit_meal_title" = "食事を編集";
+
+/* Meal form name textfield placeholder */
+"meal_form.name_placeholder" = "食事";
+
+/* Update Meal button title */
+"meal_form.update_meal_button" = "食事を更新";
+
+/* Add meal button title */
+"plan.add_meal" = "食事を追加";
+
+/* Meal plan screen title */
+"plan.title" = "食事プラン";
+

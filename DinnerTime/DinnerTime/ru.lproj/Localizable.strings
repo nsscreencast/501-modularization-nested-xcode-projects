@@ -1,0 +1,27 @@
+/* Delete button title */
+"delete" = "Удалить";
+
+/* Info screen title */
+"info.title" = "Справка";
+
+/* Add Meal button title */
+"meal_form.add_meal_button" = "Добавить прием пищи";
+
+/* Add Meal screen title */
+"meal_form.add_meal_title" = "Добавить прием пищи";
+
+/* Edit Meal screen title */
+"meal_form.edit_meal_title" = "Редактировать прием пищи";
+
+/* Meal form name textfield placeholder */
+"meal_form.name_placeholder" = "Прием пищи";
+
+/* Update Meal button title */
+"meal_form.update_meal_button" = "Обновить прием пищи";
+
+/* Add meal button title */
+"plan.add_meal" = "Добавить прием пищи";
+
+/* Meal plan screen title */
+"plan.title" = "План питания";
+

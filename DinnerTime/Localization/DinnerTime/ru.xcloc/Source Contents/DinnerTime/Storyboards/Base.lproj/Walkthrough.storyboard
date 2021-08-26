@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jzD-IQ-bEf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jhE-iV-CKG">
+            <objects>
+                <viewController id="PYV-rh-cD1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q1S-Wc-gzt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="PPH-nh-1Pa">
+                                <rect key="frame" x="20" y="319.5" width="374" height="267"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner time helps you plan your meals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbI-9i-hHr">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="139"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npc-FF-YJ5">
+                                        <rect key="frame" x="0.0" y="222" width="374" height="45"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                        <state key="normal" title="Get Started →"/>
+                                        <connections>
+                                            <segue destination="KY8-1i-3eL" kind="show" id="gKB-WT-g8H"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tg5-Rr-1qQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PPH-nh-1Pa" firstAttribute="centerY" secondItem="tg5-Rr-1qQ" secondAttribute="centerY" id="3jk-lB-zUQ"/>
+                            <constraint firstItem="PPH-nh-1Pa" firstAttribute="trailing" secondItem="tg5-Rr-1qQ" secondAttribute="trailing" constant="-20" id="uw6-Qw-9r8"/>
+                            <constraint firstItem="PPH-nh-1Pa" firstAttribute="leading" secondItem="tg5-Rr-1qQ" secondAttribute="leading" constant="20" id="yZL-gd-N5J"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fmO-xT-5ZA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bog-xU-DZA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005.7971014492755" y="170.75892857142856"/>
+        </scene>
+        <!--Walkthrough Dinner Prompt View Controller-->
+        <scene sceneID="MCi-s8-cys">
+            <objects>
+                <viewController id="KY8-1i-3eL" customClass="WalkthroughDinnerPromptViewController" customModule="DinnerTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bBn-IK-3es">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="DT8-3X-Lxb">
+                                <rect key="frame" x="20" y="164" width="374" height="658"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So what’s for dinner tonight?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oko-Ko-b69">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="93"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Pasta Carbonara" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxA-G6-Z5R" customClass="CustomTextField" customModule="DinnerTime" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="176" width="374" height="55"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKH-Xe-Txf">
+                                        <rect key="frame" x="0.0" y="314" width="374" height="228"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwd-dl-YvT">
+                                        <rect key="frame" x="0.0" y="625" width="374" height="33"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                                        <state key="normal" title="Skip"/>
+                                        <connections>
+                                            <action selector="skipTapped" destination="KY8-1i-3eL" eventType="touchUpInside" id="VjN-iL-671"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oko-Ko-b69" firstAttribute="top" secondItem="DT8-3X-Lxb" secondAttribute="top" id="DLy-my-u4R"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aqj-EU-v8S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DT8-3X-Lxb" firstAttribute="leading" secondItem="aqj-EU-v8S" secondAttribute="leading" constant="20" id="AnO-Nt-RiB"/>
+                            <constraint firstItem="DT8-3X-Lxb" firstAttribute="trailing" secondItem="aqj-EU-v8S" secondAttribute="trailing" constant="-20" id="i5j-Ai-tUZ"/>
+                            <constraint firstItem="oko-Ko-b69" firstAttribute="top" secondItem="aqj-EU-v8S" secondAttribute="top" priority="999" constant="120" id="k8f-x1-Gao"/>
+                            <constraint firstItem="aqj-EU-v8S" firstAttribute="bottom" secondItem="nwd-dl-YvT" secondAttribute="bottom" constant="40" id="tIc-a7-dqb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Uxc-7X-eYF"/>
+                    <connections>
+                        <outlet property="textField" destination="bxA-G6-Z5R" id="fjZ-Z6-LeX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yk6-gP-rmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1971.0144927536232" y="170.75892857142856"/>
+        </scene>
+        <!--Walkthrough Navigation Controller-->
+        <scene sceneID="93a-qb-N0P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="jzD-IQ-bEf" customClass="WalkthroughNavigationController" customModule="DinnerTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="twE-CS-7aH">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nBF-3K-gIA">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="PYV-rh-cD1" kind="relationship" relationship="rootViewController" id="B2Q-fP-HKY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hih-v2-bth" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="170.75892857142856"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="bxA-G6-Z5R">
+            <size key="intrinsicContentSize" width="199" height="55"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

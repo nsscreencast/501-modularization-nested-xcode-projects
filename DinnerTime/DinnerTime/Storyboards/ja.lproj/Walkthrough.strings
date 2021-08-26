@@ -1,0 +1,15 @@
+/* Class = "UITextField"; placeholder = "Pasta Carbonara"; ObjectID = "bxA-G6-Z5R"; */
+"bxA-G6-Z5R.placeholder" = "パスタカルボナーラ";
+
+/* Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "Npc-FF-YJ5"; */
+"Npc-FF-YJ5.normalTitle" = "まず始めに →";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "nwd-dl-YvT"; */
+"nwd-dl-YvT.normalTitle" = "スキップ";
+
+/* Class = "UILabel"; text = "So what’s for dinner tonight?"; ObjectID = "oko-Ko-b69"; */
+"oko-Ko-b69.text" = "今日の夕食は何にしますか？";
+
+/* Class = "UILabel"; text = "Dinner time helps you plan your meals"; ObjectID = "rbI-9i-hHr"; */
+"rbI-9i-hHr.text" = "「ディナータイム」は献立作りをお手伝いします";
+

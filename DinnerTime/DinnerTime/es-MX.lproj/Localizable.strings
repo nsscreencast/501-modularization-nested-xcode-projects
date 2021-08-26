@@ -1,0 +1,27 @@
+/* Delete button title */
+"delete" = "Eliminar";
+
+/* Info screen title */
+"info.title" = "Información";
+
+/* Add Meal button title */
+"meal_form.add_meal_button" = "Agregar comida";
+
+/* Add Meal screen title */
+"meal_form.add_meal_title" = "Agregar comida";
+
+/* Edit Meal screen title */
+"meal_form.edit_meal_title" = "Editar comida";
+
+/* Meal form name textfield placeholder */
+"meal_form.name_placeholder" = "Comida";
+
+/* Update Meal button title */
+"meal_form.update_meal_button" = "Actualizar comida";
+
+/* Add meal button title */
+"plan.add_meal" = "Agregar comida";
+
+/* Meal plan screen title */
+"plan.title" = "Plan alimenticio";
+

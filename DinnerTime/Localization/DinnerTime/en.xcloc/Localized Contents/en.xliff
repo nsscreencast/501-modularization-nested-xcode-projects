@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="DinnerTime/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>DinnerTime</source>
+        <target>DinnerTime</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="DinnerTime/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+    </header>
+    <body>
+      <trans-unit id="breakfast" xml:space="preserve">
+        <source>Breakfast</source>
+        <target>Breakfast</target>
+        <note>Breakfast</note>
+      </trans-unit>
+      <trans-unit id="date" xml:space="preserve">
+        <source>Date</source>
+        <target>Date</target>
+        <note>Date cell label</note>
+      </trans-unit>
+      <trans-unit id="delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Delete button title</note>
+      </trans-unit>
+      <trans-unit id="dessert" xml:space="preserve">
+        <source>Dessert</source>
+        <target>Dessert</target>
+        <note>dessert</note>
+      </trans-unit>
+      <trans-unit id="dinner" xml:space="preserve">
+        <source>Dinner</source>
+        <target>Dinner</target>
+        <note>dinner</note>
+      </trans-unit>
+      <trans-unit id="info.title" xml:space="preserve">
+        <source>Info</source>
+        <target>Info</target>
+        <note>Info screen title</note>
+      </trans-unit>
+      <trans-unit id="lunch" xml:space="preserve">
+        <source>Lunch</source>
+        <target>Lunch</target>
+        <note>Lunch</note>
+      </trans-unit>
+      <trans-unit id="meal_form.add_meal_button" xml:space="preserve">
+        <source>Add meal</source>
+        <target>Add meal</target>
+        <note>Add Meal button title</note>
+      </trans-unit>
+      <trans-unit id="meal_form.add_meal_title" xml:space="preserve">
+        <source>Add Meal</source>
+        <target>Add Meal</target>
+        <note>Add Meal screen title</note>
+      </trans-unit>
+      <trans-unit id="meal_form.edit_meal_title" xml:space="preserve">
+        <source>Edit Meal</source>
+        <target>Edit Meal</target>
+        <note>Edit Meal screen title</note>
+      </trans-unit>
+      <trans-unit id="meal_form.name_placeholder" xml:space="preserve">
+        <source>Meal</source>
+        <target>Meal</target>
+        <note>Meal form name textfield placeholder</note>
+      </trans-unit>
+      <trans-unit id="meal_form.update_meal_button" xml:space="preserve">
+        <source>Update meal</source>
+        <target>Update meal</target>
+        <note>Update Meal button title</note>
+      </trans-unit>
+      <trans-unit id="meals_planned_count" xml:space="preserve">
+        <source>meals_planned_count</source>
+        <target>meals_planned_count</target>
+        <note>You have %d meals planned this week</note>
+      </trans-unit>
+      <trans-unit id="plan.add_meal" xml:space="preserve">
+        <source>Add Meal</source>
+        <target>Add Meal</target>
+        <note>Add meal button title</note>
+      </trans-unit>
+      <trans-unit id="plan.title" xml:space="preserve">
+        <source>Meal Plan</source>
+        <target>Meal Plan</target>
+        <note>Meal plan screen title</note>
+      </trans-unit>
+      <trans-unit id="snack" xml:space="preserve">
+        <source>Snack</source>
+        <target>Snack</target>
+        <note>snack</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="DinnerTime/en.lproj/Localizable.stringsdict" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+    </header>
+    <body>
+      <trans-unit id="/meals_planned_count:dict/MEALS:dict/one:dict/:string" xml:space="preserve">
+        <source>%d meal</source>
+        <target>%d meal</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/meals_planned_count:dict/MEALS:dict/other:dict/:string" xml:space="preserve">
+        <source>%d meals</source>
+        <target>%d meals</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/meals_planned_count:dict/MEALS:dict/zero:dict/:string" xml:space="preserve">
+        <source>no meals</source>
+        <target>no meals</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/meals_planned_count:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>You have %#@MEALS@ planned this week.</source>
+        <target>You have %#@MEALS@ planned this week.</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="DinnerTime/Storyboards/Base.lproj/Walkthrough.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+    </header>
+    <body>
+      <trans-unit id="Npc-FF-YJ5.normalTitle" xml:space="preserve">
+        <source>Get Started →</source>
+        <target>Get Started →</target>
+        <note>Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "Npc-FF-YJ5";</note>
+      </trans-unit>
+      <trans-unit id="bxA-G6-Z5R.placeholder" xml:space="preserve">
+        <source>Pasta Carbonara</source>
+        <target>Pasta Carbonara</target>
+        <note>Class = "UITextField"; placeholder = "Pasta Carbonara"; ObjectID = "bxA-G6-Z5R";</note>
+      </trans-unit>
+      <trans-unit id="nwd-dl-YvT.normalTitle" xml:space="preserve">
+        <source>Skip</source>
+        <target>Skip</target>
+        <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "nwd-dl-YvT";</note>
+      </trans-unit>
+      <trans-unit id="oko-Ko-b69.text" xml:space="preserve">
+        <source>So what’s for dinner tonight?</source>
+        <target>So what’s for dinner tonight?</target>
+        <note>Class = "UILabel"; text = "So what’s for dinner tonight?"; ObjectID = "oko-Ko-b69";</note>
+      </trans-unit>
+      <trans-unit id="rbI-9i-hHr.text" xml:space="preserve">
+        <source>Dinner time helps you plan your meals</source>
+        <target>Dinner time helps you plan your meals</target>
+        <note>Class = "UILabel"; text = "Dinner time helps you plan your meals"; ObjectID = "rbI-9i-hHr";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
